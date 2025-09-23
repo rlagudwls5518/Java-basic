@@ -3,8 +3,7 @@ package oop;
 public class RectangleProceduralMain {
     public static void main(String[] args) {
         Ractangle ractangle = new Ractangle();
-        ractangle.width =5;
-        ractangle.height =8;
+        ractangle.initData(5,8);
 
 
         int area = ractangle.calculateArea();

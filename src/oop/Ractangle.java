@@ -13,6 +13,10 @@ public class Ractangle {
     boolean isSquare() {
         return width == height;
     }
+    void initData(int width, int height){
+        this.height= width;
+        this.width = width;
+    }
 
 }
 
